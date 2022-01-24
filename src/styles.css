@@ -1,0 +1,126 @@
+body {
+  background-color: #212528;
+  /* color: #bcbcc1; */
+  color: #e9ecef;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.task-card {
+  margin: 1rem auto 0;
+  padding: 1.5rem;
+  text-align: left;
+  background-color: #2b2f33;
+  height:fit-content;
+  width: 18rem;
+  border-radius: 10px;
+  display:inline-block;
+  transform: scale(0.9);  
+  border: 0.0625rem solid #2b2f33
+}
+.task-card:hover {
+ 
+  border: 0.0625rem solid #bcbcc1
+}
+.margin-1-rem{
+  margin: 1rem 0;
+}
+.task-card-buttons {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+.progress {
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  background-color: #fdbc2c;
+}
+
+.top-navbar {  
+  border-radius: 0.0625rem;
+  border-bottom: 0.0625rem solid #bcbcc13d;
+  margin: 0.3125rem -1.5rem 1rem;
+  
+  /* text-align: left; */
+  
+  top: 0;
+  
+}
+.navbar>.container{
+  justify-content: left;
+  font-size: 1.5rem;
+  color: white;
+}
+.hamburger-icon{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.hamburger-icon:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.line{
+  /* border-radius: 0.125rem;
+  border-top: 0.125rem solid #bcbcc1;
+  margin: 0.3125rem auto 1rem; */
+  border-radius: 0.0625rem;
+  border-top: 0.0625rem solid #bcbcc1;
+  margin: 0.3125rem -1.5rem 1rem;
+}
+.faded{
+  
+  opacity: 0.1;
+}
+input,.form-control{
+  color: #e9ecef;
+  margin: 0;
+  font-family: inherit;
+  font-size: large;
+  line-height: inherit;
+  background-color: #2b2f33;
+  border: hidden;
+  border-bottom: 0.0625rem solid #bcbcc1;
+  font-size:1.25rem;
+}
+.no-outline:focus{
+  outline:none;
+  border: hidden;
+}
+label{
+  font-size: 1.25rem;
+}
+.tasks-container{
+  padding-inline: 3rem;
+  text-align: left; 
+}
+.new { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  text-align: left;
+  
+  /* overflow: scroll; */
+}
+.overlay-styles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+
+
+
+
+

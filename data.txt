@@ -1,0 +1,58 @@
+[
+    {
+        "id": 12,
+        "name": "Task1",
+        "dueDate": "2022-01-05T00:00:00",
+        "taskDuration": 10,
+        "progress": 0,
+        "status": 0
+    },
+    {
+        "id": 13,
+        "name": "task2",
+        "dueDate": "2022-01-02T00:00:00",
+        "taskDuration": 10,
+        "progress": 20,
+        "status": 1
+    },
+    {
+        "id": 22,
+        "name": "Time Sheets",
+        "dueDate": "2022-01-21T00:00:00",
+        "taskDuration": 5,
+        "progress": 0,
+        "status": 0
+    },
+    {
+        "id": 23,
+        "name": "CV",
+        "dueDate": "2022-01-21T00:00:00",
+        "taskDuration": 10,
+        "progress": 0,
+        "status": 0
+    },
+    {
+        "id": 25,
+        "name": "CRD",
+        "dueDate": "2022-01-21T00:00:00",
+        "taskDuration": 240,
+        "progress": 0,
+        "status": 0
+    },
+    {
+        "id": 27,
+        "name": "abc",
+        "dueDate": "2022-01-22T00:00:00",
+        "taskDuration": 20,
+        "progress": 0,
+        "status": 0
+    },
+    {
+        "id": 28,
+        "name": "VideoChatApp",
+        "dueDate": "2022-01-28T00:00:00",
+        "taskDuration": 600,
+        "progress": 0,
+        "status": 0
+    }
+]
